@@ -8,13 +8,15 @@
     "react-redux": "^7.0.1",
     "react-scripts": "2.1.8",
     "redux": "^4.0.1",
+    "sonar-scanner": "^3.1.0",
     "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
   },
   "eslintConfig": {
     "extends": "react-app"
